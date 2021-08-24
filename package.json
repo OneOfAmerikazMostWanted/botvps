@@ -1,0 +1,19 @@
+{
+  "name": "botvps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OneOfAmerikazMostWanted/botvps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OneOfAmerikazMostWanted/botvps/issues"
+  },
+  "homepage": "https://github.com/OneOfAmerikazMostWanted/botvps#readme",
+  "description": ""
+}
