@@ -2,7 +2,7 @@ const Discord = require("discord.js"); //Conexão com a livraria Discord.js
 const client = new Discord.Client(); //Criação de um novo Client
 const config = require("./config.json"); //Pegando o prefixo do bot para respostas de comandos
 const { MessageEmbed } = require('discord.js')
-const 
+const { token } = require('./config.json');
 
 // const moment = require("moment")
 
@@ -47,4 +47,4 @@ client.on('debug', async(debug) => {
   console.log(debug)
   })
 
-client.login("ODQ0Mzk1ODUzNzAzMDIwNTk1.YKRy6w.gS7JDXd0Q_zf9Q51POmg8MgsGnc"); //Ligando o Bot caso ele consiga acessar o token
+client.login(token); //Ligando o Bot caso ele consiga acessar o token
